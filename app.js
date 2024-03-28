@@ -5,7 +5,7 @@ const morgan = require('morgan');
 
 // Env Variabels
 const port = process.env.PORT || "8080";
-const metricsFile = process.env.METRICS_FILE //|| '/mnt';
+const metricsFile = process.env.METRICS_FILE || '/mnt';
 const metricsUrl = process.env.METRICS_URL || 'metrics';
 const hostname = process.env.HOSTNAME;
 
